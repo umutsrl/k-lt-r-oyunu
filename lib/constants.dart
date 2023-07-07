@@ -1,13 +1,13 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
+
 import 'package:flutter/widgets.dart';
 
-Icon smile = Icon(
+const Icon smile = Icon(
   Icons.mood,
-  color: Colors.red,
+  color: Color.fromARGB(255, 0, 17, 255),
 );
-Icon bad = Icon(
+const Icon bad = Icon(
   Icons.mood_bad,
   color: Colors.deepOrange,
 );
